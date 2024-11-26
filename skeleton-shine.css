@@ -1,0 +1,45 @@
+@import url(themes.css);
+
+.skeleton::before {
+    background: linear-gradient(var(--theme));
+    -webkit-animation: skeleton 1s infinite reverse;
+    -moz-animation: skeleton 1s infinite reverse;
+    -o-animation: skeleton 1s infinite reverse;
+    animation: skeleton 1s infinite reverse;
+}
+
+@-webkit-keyframes skeleton {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@-moz-keyframes skeleton {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@-o-keyframes skeleton {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes skeleton {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}

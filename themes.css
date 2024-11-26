@@ -1,0 +1,19 @@
+:root {
+    --theme: to right, #e4e4e4 8%, #dfdfdf 18%, #cdcdcd 33%;
+}
+
+.dark { 
+    --theme: to right, #e4e4e4 8%, #dfdfdf 18%, #636363 33%;
+}
+
+.lite {
+    --theme: -45deg, #f0f0f0 25%, #e4e4e4 50%, #f0f0f0 75%;
+}
+
+.one-data-light-style {
+    --theme: to right, #fcf5dc 8%, #fff9e8 18%, #f1e7cb 33%;
+}
+
+.one-bright-light-style {
+    --theme: to right, #0acffe 0%, #6f6ed8 42%, #d23e01 96%, #f35202 100%;
+}

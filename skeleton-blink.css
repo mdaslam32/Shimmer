@@ -1,0 +1,46 @@
+.skeleton::before{
+    -webkit-animation: skeleton 1s linear infinite alternate;
+    -moz-animation: skeleton 1s linear infinite alternate;
+    -o-animation: skeleton 1s linear infinite alternate;
+    animation: skeleton 1s linear infinite alternate;
+}
+
+@-webkit-keyframes skeleton {
+    0%{
+        background-color: hsl(200, 20%, 80%);
+    }
+
+    100%{
+        background-color: hsl(200, 20%, 90%);
+    }
+}
+
+@-moz-keyframes skeleton {
+    0%{
+        background-color: hsl(200, 20%, 80%);
+    }
+
+    100%{
+        background-color: hsl(200, 20%, 90%);
+    }
+}
+
+@-o-keyframes skeleton {
+    0%{
+        background-color: hsl(200, 20%, 80%);
+    }
+
+    100%{
+        background-color: hsl(200, 20%, 90%);
+    }
+}
+
+@keyframes skeleton {
+    0%{
+        background-color: hsl(200, 20%, 80%);
+    }
+
+    100%{
+        background-color: hsl(200, 20%, 90%);
+    }
+}
